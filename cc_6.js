@@ -33,3 +33,21 @@ const m1 = new Manager("Anthony Lee", "Engineering", 8);
 const m2 = new Manager("Travis Scott", "Sales", 5);
 
 //sample employees & managers
+
+class Company {
+  constructor() {
+    this.employees = []
+  }
+
+  addEmployee(employee) {
+    this.employees.push(employee);
+  }
+
+  listEmployees() {
+    this.employees.forEach(emp => {
+      console.log(emp.describe());
+    })
+  }
+}
+
+//Class company and added methods for new employess and list employees
