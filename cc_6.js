@@ -51,3 +51,13 @@ class Company {
 }
 
 //Class company and added methods for new employess and list employees
+
+const company = new Company();
+company.addEmployee(e1);
+company.addEmployee(e2);
+company.addEmployee(m1);
+company.addEmployee(m2);
+
+company.listEmployees()
+
+// Instantiate a Company object, add both employee and manager instances & finished
