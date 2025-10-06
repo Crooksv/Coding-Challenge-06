@@ -13,3 +13,16 @@ class Employee {
 }
 //base class Employee
 
+class Manager extends Employee {
+  constructor(name, department, teamSize) {
+    super(name, department);
+    this.teamSize = teamSize;
+  }
+
+  describe() {
+    return `Manager: ${this.name} (Dept: ${this.department}, Team Size: ${this.teamSize})`;
+  }
+}
+
+//subclass Manager, extends Employee
+
