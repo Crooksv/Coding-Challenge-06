@@ -26,3 +26,10 @@ class Manager extends Employee {
 
 //subclass Manager, extends Employee
 
+const e1 = new Employee("Vinny Crooks", "Finance");
+const e2 = new Employee("Chloe Dee", "Accounting");
+
+const m1 = new Manager("Anthony Lee", "Engineering", 8);
+const m2 = new Manager("Travis Scott", "Sales", 5);
+
+//sample employees & managers
